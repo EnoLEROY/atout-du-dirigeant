@@ -1,0 +1,27 @@
+<%= render "components/navbar" %>
+
+<div class="container w-100 text-center">
+  <%= image_tag 'logos/logo-full.png', class: "w-75" %>
+
+</div>
+
+<div class="container-center p-5 w-100 d-flex justify-content-center">
+  <div class="row">
+    <% 10.times do %>
+    <div class="col-lg-3 col-sm-6 p-2">
+      <div class="border p-3">
+        <h2 class="text-center p-1">Content</h2>
+        <p>je suis un contenu random</p>
+        <p>je suis un contenu random</p>
+        <p>je suis un contenu random</p>
+        <p>je suis un contenu random</p>
+        <p>je suis un contenu random</p>
+        <p>je suis un contenu random</p>
+        <p>je suis un contenu random</p>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>
+
+<%= render "components/footer" %>
