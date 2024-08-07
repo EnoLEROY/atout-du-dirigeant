@@ -13,12 +13,18 @@
  *= require_tree .
  *= require_self
  */
+ 
+ 
+ // importations internes
+ // colors
+ @import "config/colors";
+ @import "config/fonts";
+ 
+ 
+ // importations externes 
+ @import 'bootstrap';
+ @import "font-awesome";
 
-// importations externes 
-@import 'bootstrap';
-@import "font-awesome";
 
-
-// importations internes
 // components
-@import "components/navbar"
+@import "components/index";
